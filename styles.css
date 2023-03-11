@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import "reset.css";
+@import "variables.css";
+
+/*  components  */
+@import "components/top-bar.css";
+@import "components/playlist-info.css";
+@import "components/musiclist.css";
+@import "components/now-playing.css";
+@import "components/playlist-screen.css";
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(234, 234, 234);
+    display: flex;
+
+}
+.playlist-frame {
+    border-radius: 30px;
+    margin: 50px;
+    background-color: rgb(255, 255, 255);
+    height: 700px;
+    box-shadow: 0 5px 18px -7px rgba(0,0,0,1);
+    position: relative;
+}

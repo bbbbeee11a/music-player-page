@@ -1,0 +1,10 @@
+.top-bar {
+    padding: 30px 20px 10px;
+    width: 280px;
+}
+
+.top-bar__icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

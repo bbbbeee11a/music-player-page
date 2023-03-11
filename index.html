@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="playlist-frame">
+        <div class="playlist-frame__inner">
+            <header class="top-bar">
+                <div class="top-bar__icons">
+                    <span><i class="fa-solid fa-left-long fa-xl"></i></span>
+                    <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+                </div>
+            </header>
+            <div class="playlist__scroll">
+                <div class="playlist-info">
+                    <img id="playlist-info__profile-image" src="images/taylor_pic.JPG"/>
+                    <h2 id="playlist-info__singer">Taylor Swift</h2>
+                    <span id="playlist-info__genre">Pop · country · folk · rock · alternative</span>
+                    <form class="button-container">
+                        <input type="button" value="Shuffle">
+                        <input type="button" value="&#10084; 51.1M">
+                    </form>
+                </div>
+                
+                <div class="musiclist">
+                    <div class="music-container">
+                        <div class="music-container__column">
+                            <img class="album-cover" src="images/midnights.png"/>
+                        </div>
+                        <div class="music-container__column">
+                            <span>Midnights</span>
+                            <span>You're On Your Own, Kid</span>
+                        </div>
+                        <div class="music-container__column">
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                    </div>
+                    <div class="music-container">
+                        <div class="music-container__column">
+                            <img class="album-cover" src="images/red.JPG"/>
+                            <i class="fa-solid fa-chart-simple fa-lg"></i>
+                        </div>
+                        <div class="music-container__column">
+                            <span>Red (Taylor's Version)</span>
+                            <span>Starlight (Taylor's Version)</span>
+                        </div>
+                        <div class="music-container__column">
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                    </div>
+                    <div class="music-container">
+                        <div class="music-container__column">
+                            <img class="album-cover" src="images/folklore.png"/>
+                        </div>
+                        <div class="music-container__column">
+                            <span>folklore</span>
+                            <span>the 1</span>
+                        </div>
+                        <div class="music-container__column">
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                    </div>
+                    <div class="music-container">
+                        <div class="music-container__column">
+                            <img class="album-cover" src="images/1989.JPG"/>
+                        </div>
+                        <div class="music-container__column">
+                            <span>1989</span>
+                            <span>Wildest Dreams</span>
+                        </div>
+                        <div class="music-container__column">
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                    </div>
+                    <div class="music-container">
+                        <div class="music-container__column">
+                            <img class="album-cover" src="images/lover.png"/>
+                        </div>
+                        <div class="music-container__column">
+                            <span>Lover</span>
+                            <span>Afterglow</span>
+                        </div>
+                        <div class="music-container__column">
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            
+        <div class="now-playing">
+            <div class="now-playing__music">
+                <span>Red (Taylor's Version)</span>
+                <span>Starlight (Taylor's Version)</span>
+            </div>
+            <div class="now-playing__buttons">
+                <span><i class="fa-solid fa-backward-step"></i></span>
+                <span><i class="fa-solid fa-pause fa-xl"></i></span>
+                <span><i class="fa-solid fa-forward-step"></i></span>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="playlist-frame">
+        <header class="top-bar">
+            <div class="top-bar__icons">
+                <span><i class="fa-solid fa-left-long fa-xl"></i></span>
+                <span><i class="fa-solid fa-ellipsis-vertical fa-lg"></i></span>
+            </div>
+        </header>
+        
+        <div class="playlist-screen">
+            <img id="album-art" src="images/red.JPG"/>
+        
+            <div class="song">
+                <span id="song__title">Starlight</span>
+                <span id="song__singer">Taylor Swift</span>
+            </div>
+
+            <div class="playing-bar">
+                <div class="playing-bar__column">
+                    <span>1:12</span>
+                    <span>3:40</span>
+                </div>
+                <div class="playing-bar__column">
+                    <div class="playing-bar__status">
+                        <div class="a1"></div>
+                        <div class="a2"></div>
+                        <div class="a3"></div>
+                    </div>
+                </div>
+                <div class="playing-bar__buttons">
+                    <i class="playing-bar__button fa-solid fa-repeat"></i>
+                    <i class="playing-bar__button fa-solid fa-backward-step fa-lg"></i>
+                    <div id="play-button">
+                        <i class="fa-solid fa-play fa-lg"></i>
+                    </div>
+                    <i class="playing-bar__button fa-solid fa-forward-step fa-lg"></i>
+                    <i class="playing-bar__button fa-solid fa-shuffle"></i>
+                </div>
+            </div>
+
+
+        </div>
+        
+    </div>
+    <script src="https://kit.fontawesome.com/05dc8f1f4e.js" crossorigin="anonymous"></script>
+</body>
+</html>
